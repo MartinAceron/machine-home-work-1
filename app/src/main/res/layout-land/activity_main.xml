@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+   <EditText
+       android:id="@+id/edit_title"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/edit_title"
+       />
+
+   <EditText
+       android:id="@+id/edit_content"
+       android:layout_width="match_parent"
+       android:layout_height="230dp"
+       android:hint="@string/edit_content"
+       android:layout_centerVertical="true"
+       />
+   <Button
+       android:id="@+id/button_send"
+       android:layout_width="230dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/edit_content"
+       android:hint="@string/button_send"/>
+   <Button
+       android:id="@+id/button_clear"
+       android:layout_width="230dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/edit_content"
+       android:layout_toRightOf="@id/button_send"
+       android:hint="@string/button_clear"/>
+
+   <Button
+       android:id="@+id/button_cancel"
+       android:layout_width="230dp"
+       android:layout_height="wrap_content"
+      android:layout_below="@id/edit_content"
+       android:layout_toRightOf="@id/button_clear"
+       android:hint="@string/button_cancel" />
+
+   <!-- Author: Martin John L. Aceron>
+
+
+
+</RelativeLayout>
